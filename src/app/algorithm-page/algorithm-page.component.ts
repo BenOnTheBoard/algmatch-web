@@ -5,6 +5,7 @@ import {
   inject,
   OnInit,
   viewChild,
+  ChangeDetectionStrategy,
 } from '@angular/core';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CommonModule, NgClass } from '@angular/common';
@@ -26,6 +27,7 @@ import anime from 'animejs/lib/anime.es.js';
   selector: 'algorithm-page',
   templateUrl: './algorithm-page.component.html',
   styleUrls: ['./algorithm-page.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
   imports: [
     MatIconModule,
     MatTooltipModule,

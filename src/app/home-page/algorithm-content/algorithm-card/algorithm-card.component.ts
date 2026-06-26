@@ -1,4 +1,10 @@
-import { Component, viewChild, input, inject } from '@angular/core';
+import {
+  Component,
+  viewChild,
+  input,
+  inject,
+  ChangeDetectionStrategy,
+} from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AlgorithmRetrievalService } from 'src/app/algorithm-retrieval/algorithm-retrieval.service';
@@ -19,6 +25,7 @@ import anime from 'animejs/lib/anime.es.js';
     '../../home-page.component.scss',
     '../../home-content/home-content.component.scss',
   ],
+  changeDetection: ChangeDetectionStrategy.Eager,
   imports: [
     MatFormFieldModule,
     MatInputModule,

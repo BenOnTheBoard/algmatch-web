@@ -4,11 +4,13 @@ import {
   HostListener,
   input,
   Signal,
+  ChangeDetectionStrategy,
 } from '@angular/core';
 import anime from 'animejs/lib/anime.es.js';
 
 @Component({
   selector: 'app-abstract-sidebar',
+  changeDetection: ChangeDetectionStrategy.Eager,
   templateUrl: './abstract-sidebar.component.html',
 })
 export abstract class AbstractSidebarComponent {
