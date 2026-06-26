@@ -26,6 +26,7 @@
     "@angular/router": "^22.0.3",
     "animejs": "^3.2.2",
     "jquery": "^3.7.1",
+    "ngxtension": "^7.2.0",
     "rxjs": "~7.8.2",
     "tslib": "^2.8.1",
     "zone.js": "~0.15.1"
@@ -52,6 +53,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
+    "ngxtension-plugin": "^7.2.0",
     "ts-node": "~10.9.2",
     "typescript": "^6.0.0",
     "typescript-eslint": "8.62.0"

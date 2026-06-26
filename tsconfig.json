@@ -16,7 +16,8 @@
     "target": "es2015",
     "types": ["node"],
     "strict": false,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "skipLibCheck": true
   },
   "exclude": ["./cypress.config.ts"],
   "angularCompilerOptions": {
