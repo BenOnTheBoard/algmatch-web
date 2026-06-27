@@ -14,7 +14,7 @@
     "importHelpers": true,
     "rootDir": "./",
     "target": "es2015",
-    "types": ["node"],
+    "types": ["jasmine", "node"],
     "strict": false,
     "noUnusedLocals": true,
     "skipLibCheck": true
