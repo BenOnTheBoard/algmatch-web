@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "individual-project": {
+    "algmatch-web": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "options": {
-            "buildTarget": "individual-project:build"
+            "buildTarget": "algmatch-web:build"
           },
           "configurations": {
             "production": {
-              "buildTarget": "individual-project:build:production"
+              "buildTarget": "algmatch-web:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "individual-project:build"
+            "buildTarget": "algmatch-web:build"
           }
         },
         "test": {
@@ -99,13 +99,13 @@
         "e2e": {
           "builder": "@cypress/schematic:cypress",
           "options": {
-            "devServerTarget": "individual-project:serve",
+            "devServerTarget": "algmatch-web:serve",
             "watch": true,
             "headless": false
           },
           "configurations": {
             "production": {
-              "devServerTarget": "individual-project:serve:production"
+              "devServerTarget": "algmatch-web:serve:production"
             }
           }
         },
@@ -115,11 +115,11 @@
         "cypress-run": {
           "builder": "@cypress/schematic:cypress",
           "options": {
-            "devServerTarget": "individual-project:serve"
+            "devServerTarget": "algmatch-web:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "individual-project:serve:production"
+              "devServerTarget": "algmatch-web:serve:production"
             }
           }
         },
