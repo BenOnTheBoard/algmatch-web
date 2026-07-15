@@ -12,19 +12,19 @@ import anime from 'animejs/lib/anime.es.js';
   imports: [NgClass],
 })
 export class NavbarComponent {
-  componentMap: Object = {
-    '/': '.homeContent',
-    '/about': '.aboutContent',
-    '/algorithms': '.algorithmContent',
-    '/feedback': '.feedbackContent',
-  };
+  componentMap = new Map<string, string>([
+    ['/', '.homeContent'],
+    ['/about', '.aboutContent'],
+    ['/algorithms', '.algorithmContent'],
+    ['/feedback', '.feedbackContent'],
+  ]);
 
   protected router = inject(Router);
   protected utils = inject(UtilsService);
 
   fadeCurrentPage(): void {
     anime({
-      targets: [this.componentMap[this.router.url]],
+      targets: [this.componentMap.get(this.router.url)],
       easing: 'easeInOutQuint',
       opacity: [1, 0],
       duration: 400,

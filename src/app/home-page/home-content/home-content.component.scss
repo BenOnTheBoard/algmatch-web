@@ -14,6 +14,18 @@
   line-height: styles.$base-font-size * 1.6;
 }
 
+.section-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.section-text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
 /* under small */
 @media only screen and (max-width: 576px) {
   .video {

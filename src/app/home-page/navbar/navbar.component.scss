@@ -1,3 +1,16 @@
+.navbar {
+  background-color: white;
+  font-family: "DM Sans";
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+#algmatch {
+  font-size: 40px;
+}
+
 #alg {
   color: #d44b21;
   transition: 200ms color;
@@ -6,6 +19,12 @@
 #match {
   color: #9810ca;
   transition: 200ms color;
+}
+
+.nav-link {
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 a:hover span #alg {
