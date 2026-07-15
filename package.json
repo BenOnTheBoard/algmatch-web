@@ -1,5 +1,5 @@
 {
-  "name": "individual-project",
+  "name": "algmatch-web",
   "version": "1.3.2",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --output-path docs --configuration=production --base-href /individual-project/",
+    "deploy": "ng build --output-path docs --configuration=production --base-href /algmatch-web/",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },

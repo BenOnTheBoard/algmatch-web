@@ -1,4 +1,4 @@
-describe('individual-project', () => {
+describe('algmatch-web', () => {
   let consoleErrors = [];
 
   beforeEach(() => {
