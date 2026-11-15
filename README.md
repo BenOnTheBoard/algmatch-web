@@ -1,6 +1,6 @@
 # Algmatch
 
-[You can access the site here.](https://benontheboard.github.io/individual-project/)
+[You can access the site here.](https://benontheboard.github.io/algmatch-web/)
 
 Matching problems arise whenever an assignment must be found between agents based on their individual preferences. Large-scale examples include the [U.S. National Resident Matching Program](https://www.nrmp.org/), which matches junior doctors to hospitals, so efficient algorithms are necessary. Algmatch seeks to help teach those with no prior knowledge the purpose and function of stable matching algorithms.
 
